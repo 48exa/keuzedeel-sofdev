@@ -5,10 +5,33 @@ body {
   padding: 2rem;
 }
 
+.sheet-music {
+  display: none;
+  position: fixed;
+  width: 90%;
+}
+
+hr {
+  margin: 25px;
+}
+
+hr.ledger {
+  margin-left: 25px;
+  width: 5%
+}
+
+.notebox {
+  position: fixed;
+  font-size: 100px;
+  padding: 0px;
+  margin-left: 20%;
+}
+
 #keyboard {
-  margin-top: 500px;
+  /* height controlled by argin-top property of .octave-0 */
   margin: 0px;
-  width: calc(236 * 2)px;
+  width: 1778px;
+  height: 100px;
 }
 
 .white {
@@ -39,6 +62,11 @@ body {
 .black:active {
   background-color: #f00;
   color: #f00
+}
+
+.red {
+  background-color: #f00 !important;
+  color: #f00 !important;
 }
 
 .octave-white {
@@ -79,7 +107,7 @@ body {
 }
 
 .octave-0 {
-  margin-top: 500px;
+  margin-top: 600px;
 }
 
 .octave-1 {
