@@ -1,0 +1,123 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,
+    Arial, sans-serif;
+  max-width: 38rem;
+  padding: 2rem;
+}
+
+#keyboard {
+  margin-top: 500px;
+  margin: 0px;
+  width: calc(236 * 2)px;
+}
+
+.white {
+  height: 100px;
+  width: 30px;
+  margin: 0px;
+  padding: 0px;
+  border: 1px solid #000;
+  background-color: #fff;
+  color: #fff;
+}
+
+.black {
+  height: 75px;
+  width: 20px;
+  margin: 0px;
+  padding: 0px;
+  background-color: #000;
+  color: #000;
+  border: none;
+}
+
+.white:active {
+  background-color: #f00;
+  color: #f00;
+}
+
+.black:active {
+  background-color: #f00;
+  color: #f00
+}
+
+.octave-white {
+  position: fixed;
+  width: auto;
+  z-index: 1;
+}
+
+.octave-black {
+  position: fixed;
+  width: auto;
+  z-index: 2;
+}
+
+.cs {
+  margin-left: 20px;;
+}
+
+.ds {
+  margin-left: 10px;
+}
+
+.fs {
+  margin-left: 46px;
+}
+
+.gs {
+  margin-left: 9px;
+}
+
+.as {
+  margin-left: 10px;
+}
+
+.as0 {
+  position: fixed;
+  margin-left: 20px;
+}
+
+.octave-0 {
+  margin-top: 500px;
+}
+
+.octave-1 {
+  position: fixed;
+  margin-left: 68px;
+}
+
+.octave-2 {
+  margin-left: 308px;
+  position: fixed;
+}
+
+.octave-3 {
+  margin-left: 548px;
+  position: fixed;
+}
+
+.octave-4 {
+  margin-left: 788px;
+  position: fixed;
+}
+
+.octave-5 {
+  margin-left: 1028px;
+  position: fixed;
+}
+
+.octave-6 {
+  margin-left: 1268px;
+  position: fixed;
+}
+
+.octave-7 {
+  margin-left: 1508px;
+  position: fixed;
+}
+
+.octave-8 {
+  margin-left: 1748px;
+  position: fixed;
+}
