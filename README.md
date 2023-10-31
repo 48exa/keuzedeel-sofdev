@@ -1,3 +1,4 @@
 # keuzedeel-sofdev
 
-## Hier vind je mijn code voor het keuzedeel dat ik volg in 2023 voor het Alfa-College.
+I tried to make a piano in electron and it sucked really really bad lmao i just want to archive this publically for future humiliation
+archived in October 2023
